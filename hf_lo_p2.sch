@@ -3,7 +3,7 @@ C 37100 36800 0 0 0 title-bordered-C.sym
 C 41200 47000 1 0 0 AD9834.sym
 {
 T 41500 52100 5 10 1 1 0 0 1
-refdes=U?
+refdes=U5
 T 40800 53500 5 10 0 0 0 0 1
 device=AD9834
 T 40800 54100 5 10 0 0 0 0 1
@@ -50,7 +50,7 @@ C 39900 50300 1 0 0 resistor-1.sym
 T 40200 50700 5 10 0 0 0 0 1
 device=RESISTOR
 T 39800 50500 5 10 1 1 0 0 1
-refdes=R?
+refdes=R7
 T 40700 50500 5 10 1 1 0 0 1
 value=10k
 }
@@ -104,7 +104,7 @@ C 45000 49800 1 0 0 capacitor-1.sym
 T 45200 50500 5 10 0 0 0 0 1
 device=CAPACITOR
 T 45000 50100 5 8 1 1 0 0 1
-refdes=C?
+refdes=C16
 T 45200 50700 5 10 0 0 0 0 1
 symversion=0.1
 T 45600 50100 5 8 1 1 0 0 1
@@ -118,7 +118,7 @@ C 45000 50300 1 0 0 capacitor-1.sym
 T 45200 51000 5 10 0 0 0 0 1
 device=CAPACITOR
 T 45000 50600 5 8 1 1 0 0 1
-refdes=C?
+refdes=C17
 T 45200 51200 5 10 0 0 0 0 1
 symversion=0.1
 T 45600 50600 5 8 1 1 0 0 1
@@ -129,7 +129,7 @@ C 45000 50900 1 0 0 resistor-1.sym
 T 45300 51300 5 10 0 0 0 0 1
 device=RESISTOR
 T 44900 51100 5 10 1 1 0 0 1
-refdes=R?
+refdes=R8
 T 45800 51100 5 10 1 1 0 0 1
 value=6.8k
 }
@@ -145,7 +145,7 @@ C 45000 51700 1 90 0 capacitor-1.sym
 T 44300 51900 5 10 0 0 90 0 1
 device=CAPACITOR
 T 44700 51700 5 8 1 1 90 0 1
-refdes=C?
+refdes=C18
 T 44100 51900 5 10 0 0 90 0 1
 symversion=0.1
 T 44700 52300 5 8 1 1 90 0 1
@@ -169,7 +169,7 @@ N 40800 52600 41000 52600 4
 C 39900 52400 1 0 0 capacitor-1.sym
 {
 T 39900 52700 5 8 1 1 0 0 1
-refdes=C?
+refdes=C19
 T 40500 52700 5 8 1 1 0 0 1
 value=0.1uF
 T 40100 53100 5 10 0 0 0 0 1
@@ -183,7 +183,7 @@ C 39900 51800 1 0 0 capacitor-1.sym
 T 40100 52500 5 10 0 0 0 0 1
 device=CAPACITOR
 T 39900 52100 5 8 1 1 0 0 1
-refdes=C?
+refdes=C20
 T 40100 52700 5 10 0 0 0 0 1
 symversion=0.1
 T 40500 52100 5 8 1 1 0 0 1
@@ -198,7 +198,7 @@ C 38400 38000 1 90 0 capacitor-1.sym
 T 37700 38200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 38100 38000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C21
 T 37500 38200 5 10 0 0 90 0 1
 symversion=0.1
 T 38100 38600 5 8 1 1 90 0 1
@@ -223,7 +223,7 @@ C 39900 38000 1 90 0 capacitor-1.sym
 T 39200 38200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 39600 38000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C22
 T 39000 38200 5 10 0 0 90 0 1
 symversion=0.1
 T 39600 38600 5 8 1 1 90 0 1
@@ -263,7 +263,7 @@ C 46000 47200 1 90 0 resistor-1.sym
 T 45600 47500 5 10 0 0 90 0 1
 device=RESISTOR
 T 45800 47100 5 10 1 1 90 0 1
-refdes=R?
+refdes=R9
 T 45800 48000 5 10 1 1 90 0 1
 value=200
 }
@@ -278,7 +278,7 @@ C 46400 47200 1 90 0 resistor-1.sym
 T 46000 47500 5 10 0 0 90 0 1
 device=RESISTOR
 T 46200 47100 5 10 1 1 90 0 1
-refdes=R?
+refdes=R10
 T 46200 48000 5 10 1 1 90 0 1
 value=200
 }
@@ -291,7 +291,7 @@ C 47500 43100 1 0 0 inductor-1.sym
 T 47700 43600 5 10 0 0 0 0 1
 device=INDUCTOR
 T 47400 43300 5 10 1 1 0 0 1
-refdes=L?
+refdes=L1
 T 47700 43800 5 10 0 0 0 0 1
 symversion=0.1
 T 48300 43300 5 10 1 1 0 0 1
@@ -305,7 +305,7 @@ C 49900 43100 1 0 0 inductor-1.sym
 T 50100 43600 5 10 0 0 0 0 1
 device=INDUCTOR
 T 49800 43300 5 10 1 1 0 0 1
-refdes=L?
+refdes=L2
 T 50100 43800 5 10 0 0 0 0 1
 symversion=0.1
 T 50700 43300 5 10 1 1 0 0 1
@@ -316,7 +316,7 @@ C 52500 42000 1 90 0 resistor-1.sym
 T 52100 42300 5 10 0 0 90 0 1
 device=RESISTOR
 T 52300 41900 5 10 1 1 90 0 1
-refdes=R?
+refdes=R11
 T 52300 42800 5 10 1 1 90 0 1
 value=50
 }
@@ -339,7 +339,7 @@ C 41100 43100 1 0 0 resistor-1.sym
 T 41400 43500 5 10 0 0 0 0 1
 device=RESISTOR
 T 41000 43300 5 10 1 1 0 0 1
-refdes=R?
+refdes=R12
 T 41900 43300 5 10 1 1 0 0 1
 value=50
 }
@@ -355,7 +355,7 @@ C 43000 43100 1 0 0 inductor-1.sym
 T 43200 43600 5 10 0 0 0 0 1
 device=INDUCTOR
 T 42900 43300 5 10 1 1 0 0 1
-refdes=L?
+refdes=L3
 T 43200 43800 5 10 0 0 0 0 1
 symversion=0.1
 T 43800 43300 5 10 1 1 0 0 1
@@ -368,7 +368,7 @@ C 42700 42000 1 90 0 capacitor-1.sym
 T 42000 42200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 42400 42000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C23
 T 41800 42200 5 10 0 0 90 0 1
 symversion=0.1
 T 42400 42700 5 8 1 1 90 0 1
@@ -379,7 +379,7 @@ C 45200 42000 1 90 0 capacitor-1.sym
 T 44500 42200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 44900 42000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C24
 T 44300 42200 5 10 0 0 90 0 1
 symversion=0.1
 T 44900 42700 5 8 1 1 90 0 1
@@ -390,7 +390,7 @@ C 49600 42000 1 90 0 capacitor-1.sym
 T 48900 42200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 49300 42000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C25
 T 48700 42200 5 10 0 0 90 0 1
 symversion=0.1
 T 49300 42700 5 8 1 1 90 0 1
@@ -401,7 +401,7 @@ C 51500 42000 1 90 0 capacitor-1.sym
 T 50800 42200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 51200 42000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C26
 T 50600 42200 5 10 0 0 90 0 1
 symversion=0.1
 T 51200 42700 5 8 1 1 90 0 1
@@ -414,7 +414,7 @@ C 44700 42000 1 90 0 capacitor-1.sym
 T 44000 42200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 44400 42000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C27
 T 43800 42200 5 10 0 0 90 0 1
 symversion=0.1
 T 44400 42700 5 8 1 1 90 0 1
@@ -427,7 +427,7 @@ C 49100 42000 1 90 0 capacitor-1.sym
 T 48400 42200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 48800 42000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C28
 T 48200 42200 5 10 0 0 90 0 1
 symversion=0.1
 T 48800 42700 5 8 1 1 90 0 1
@@ -440,7 +440,7 @@ C 45500 43100 1 0 0 inductor-1.sym
 T 45700 43600 5 10 0 0 0 0 1
 device=INDUCTOR
 T 45400 43300 5 10 1 1 0 0 1
-refdes=L?
+refdes=L4
 T 45700 43800 5 10 0 0 0 0 1
 symversion=0.1
 T 46300 43300 5 10 1 1 0 0 1
@@ -452,7 +452,7 @@ C 53900 42800 1 0 1 SMA.sym
 T 53900 43600 5 10 0 0 0 6 1
 device=SMA
 T 53900 43400 5 10 1 1 0 6 1
-refdes=J?
+refdes=J2
 T 53900 44000 5 10 0 0 0 6 1
 footprint=SMA-E
 }
@@ -461,7 +461,7 @@ C 41100 41600 1 0 0 resistor-1.sym
 T 41400 42000 5 10 0 0 0 0 1
 device=RESISTOR
 T 41000 41800 5 10 1 1 0 0 1
-refdes=R?
+refdes=R13
 T 41900 41800 5 10 1 1 0 0 1
 value=0
 }

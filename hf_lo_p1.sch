@@ -3,7 +3,7 @@ C 37100 36800 0 0 0 title-bordered-C.sym
 C 39800 51400 1 0 0 tps793xx.sym
 {
 T 40095 52995 5 10 1 1 0 0 1
-refdes=U?
+refdes=U1
 T 40100 53200 5 10 0 0 0 0 1
 device=TPS793xx
 T 40100 53800 5 10 0 0 0 0 1
@@ -14,7 +14,7 @@ value=3.3V
 C 53900 49200 1 0 0 isp6.sym
 {
 T 54100 50200 5 10 1 1 180 0 1
-refdes=J?
+refdes=J1
 T 53900 51500 5 10 0 0 0 0 1
 device=ISP_6PIN
 T 53900 52100 5 10 0 0 0 0 1
@@ -23,7 +23,7 @@ footprint=AVRISP_2x3
 C 39400 51100 1 90 0 capacitor-1.sym
 {
 T 39100 51100 5 8 1 1 90 0 1
-refdes=C?
+refdes=C1
 T 39100 51700 5 8 1 1 90 0 1
 value=0.1uF
 T 38700 51300 5 10 0 0 90 0 1
@@ -34,7 +34,7 @@ symversion=0.1
 C 42200 50900 1 90 0 capacitor-1.sym
 {
 T 41900 50900 5 8 1 1 90 0 1
-refdes=C?
+refdes=C2
 T 41900 51500 5 8 1 1 90 0 1
 value=0.01uF
 T 41500 51100 5 10 0 0 90 0 1
@@ -70,7 +70,7 @@ N 43400 52500 43400 52900 4
 C 43000 50900 1 90 0 capacitor-1.sym
 {
 T 42700 50900 5 8 1 1 90 0 1
-refdes=C?
+refdes=C3
 T 42700 51500 5 8 1 1 90 0 1
 value=2.2uF
 T 42300 51100 5 10 0 0 90 0 1
@@ -105,7 +105,7 @@ netname=AVdd
 C 47300 51400 1 0 0 tps793xx.sym
 {
 T 47595 52995 5 10 1 1 0 0 1
-refdes=U?
+refdes=U2
 T 47600 53200 5 10 0 0 0 0 1
 device=TPS793xx
 T 47600 53800 5 10 0 0 0 0 1
@@ -116,7 +116,7 @@ value=3.3V
 C 46900 51100 1 90 0 capacitor-1.sym
 {
 T 46600 51100 5 8 1 1 90 0 1
-refdes=C?
+refdes=C4
 T 46600 51700 5 8 1 1 90 0 1
 value=0.1uF
 T 46200 51300 5 10 0 0 90 0 1
@@ -127,7 +127,7 @@ symversion=0.1
 C 49700 50900 1 90 0 capacitor-1.sym
 {
 T 49400 50900 5 8 1 1 90 0 1
-refdes=C?
+refdes=C5
 T 49400 51500 5 8 1 1 90 0 1
 value=0.01uF
 T 49000 51100 5 10 0 0 90 0 1
@@ -163,7 +163,7 @@ N 50900 52500 50900 52900 4
 C 50500 50900 1 90 0 capacitor-1.sym
 {
 T 50200 50900 5 8 1 1 90 0 1
-refdes=C?
+refdes=C6
 T 50200 51500 5 8 1 1 90 0 1
 value=2.2uF
 T 49800 51100 5 10 0 0 90 0 1
@@ -176,7 +176,7 @@ N 50300 50900 50300 50700 4
 C 49900 42600 1 0 0 atmega88.sym
 {
 T 50200 48600 5 10 1 1 0 0 1
-refdes=U?
+refdes=U3
 T 50100 49800 5 10 0 0 0 0 1
 device=ATMEGA88
 T 50100 50000 5 10 0 0 0 0 1
@@ -257,7 +257,7 @@ netname=encoder_b
 C 44600 38700 1 0 0 oscillator.sym
 {
 T 44900 39900 5 10 1 1 0 0 1
-refdes=X?
+refdes=X1
 T 44900 40200 5 10 0 0 0 0 1
 device=CRYSTAL_OSCILLATOR
 T 44900 40800 5 10 0 0 0 0 1
@@ -283,7 +283,7 @@ C 45500 37900 1 0 0 gnd-1.sym
 C 47000 38600 1 0 0 742G07.sym
 {
 T 47300 40100 5 10 1 1 0 0 1
-refdes=U?
+refdes=U4
 T 47300 40500 5 10 0 0 0 0 1
 device=742G07
 T 47300 41100 5 10 0 0 0 0 1
@@ -315,7 +315,7 @@ C 58200 39400 1 90 0 capacitor-1.sym
 T 57500 39600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 57900 39400 5 8 1 1 90 0 1
-refdes=C?
+refdes=C7
 T 57300 39600 5 10 0 0 90 0 1
 symversion=0.1
 T 57900 40000 5 8 1 1 90 0 1
@@ -424,7 +424,7 @@ netname=mcu_clk
 C 42900 44000 1 90 0 capacitor-1.sym
 {
 T 42600 44000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C8
 T 42600 44600 5 8 1 1 90 0 1
 value=0.1uF
 T 42200 44200 5 10 0 0 90 0 1
@@ -438,7 +438,7 @@ N 42700 44900 42700 45300 4
 C 42400 44000 1 90 0 capacitor-1.sym
 {
 T 42100 44000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C9
 T 42100 44600 5 8 1 1 90 0 1
 value=0.1uF
 T 41700 44200 5 10 0 0 90 0 1
@@ -452,7 +452,7 @@ N 42200 44900 42200 45600 4
 C 41900 44000 1 90 0 capacitor-1.sym
 {
 T 41600 44000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C10
 T 41600 44600 5 8 1 1 90 0 1
 value=0.1uF
 T 41200 44200 5 10 0 0 90 0 1
@@ -466,7 +466,7 @@ N 41700 44900 41700 45900 4
 C 41400 44000 1 90 0 capacitor-1.sym
 {
 T 41100 44000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C11
 T 41100 44600 5 8 1 1 90 0 1
 value=0.1uF
 T 40700 44200 5 10 0 0 90 0 1
@@ -500,7 +500,7 @@ netname=prog
 C 40900 44000 1 90 0 capacitor-1.sym
 {
 T 40600 44000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C12
 T 40600 44600 5 8 1 1 90 0 1
 value=0.1uF
 T 40200 44200 5 10 0 0 90 0 1
@@ -514,7 +514,7 @@ N 40700 44900 40700 46500 4
 C 40400 44000 1 90 0 capacitor-1.sym
 {
 T 40100 44000 5 8 1 1 90 0 1
-refdes=C?
+refdes=C13
 T 40100 44600 5 8 1 1 90 0 1
 value=0.1uF
 T 39700 44200 5 10 0 0 90 0 1
@@ -530,7 +530,7 @@ C 40300 47100 1 90 0 resistor-1.sym
 T 39900 47400 5 10 0 0 90 0 1
 device=RESISTOR
 T 40100 47000 5 10 1 1 90 0 1
-refdes=R?
+refdes=R1
 T 40100 47900 5 10 1 1 90 0 1
 value=10k
 }
@@ -539,7 +539,7 @@ C 40800 47100 1 90 0 resistor-1.sym
 T 40400 47400 5 10 0 0 90 0 1
 device=RESISTOR
 T 40600 47000 5 10 1 1 90 0 1
-refdes=R?
+refdes=R2
 T 40600 47900 5 10 1 1 90 0 1
 value=10k
 }
@@ -548,7 +548,7 @@ C 41300 47100 1 90 0 resistor-1.sym
 T 40900 47400 5 10 0 0 90 0 1
 device=RESISTOR
 T 41100 47000 5 10 1 1 90 0 1
-refdes=R?
+refdes=R3
 T 41100 47900 5 10 1 1 90 0 1
 value=10k
 }
@@ -557,7 +557,7 @@ C 41800 47100 1 90 0 resistor-1.sym
 T 41400 47400 5 10 0 0 90 0 1
 device=RESISTOR
 T 41600 47000 5 10 1 1 90 0 1
-refdes=R?
+refdes=R4
 T 41600 47900 5 10 1 1 90 0 1
 value=10k
 }
@@ -566,7 +566,7 @@ C 42300 47100 1 90 0 resistor-1.sym
 T 41900 47400 5 10 0 0 90 0 1
 device=RESISTOR
 T 42100 47000 5 10 1 1 90 0 1
-refdes=R?
+refdes=R5
 T 42100 47900 5 10 1 1 90 0 1
 value=10k
 }
@@ -575,7 +575,7 @@ C 42800 47100 1 90 0 resistor-1.sym
 T 42400 47400 5 10 0 0 90 0 1
 device=RESISTOR
 T 42600 47000 5 10 1 1 90 0 1
-refdes=R?
+refdes=R6
 T 42600 47900 5 10 1 1 90 0 1
 value=10k
 }
@@ -611,7 +611,7 @@ device=terminal
 T 38610 47300 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 46750 5 10 1 1 0 6 1
-refdes=T?
+refdes=T1
 T 38900 46900 5 8 1 1 0 1 1
 value=A
 }
@@ -622,7 +622,7 @@ device=terminal
 T 38610 47000 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 46450 5 10 1 1 0 6 1
-refdes=T?
+refdes=T2
 T 38900 46600 5 8 1 1 0 1 1
 value=B
 }
@@ -633,7 +633,7 @@ device=terminal
 T 38610 46700 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 46150 5 10 1 1 0 6 1
-refdes=T?
+refdes=T3
 T 38900 46300 5 8 1 1 0 1 1
 value=Down
 }
@@ -644,7 +644,7 @@ device=terminal
 T 38610 46400 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 45850 5 10 1 1 0 6 1
-refdes=T?
+refdes=T4
 T 38900 46000 5 8 1 1 0 1 1
 value=Up
 }
@@ -655,7 +655,7 @@ device=terminal
 T 38610 46100 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 45550 5 10 1 1 0 6 1
-refdes=T?
+refdes=T5
 T 38900 45700 5 8 1 1 0 1 1
 value=Digit
 }
@@ -666,7 +666,7 @@ device=terminal
 T 38610 45800 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 45250 5 10 1 1 0 6 1
-refdes=T?
+refdes=T6
 T 38900 45400 5 8 1 1 0 1 1
 value=Lock
 }
@@ -678,7 +678,7 @@ C 57200 39400 1 90 0 capacitor-1.sym
 T 56500 39600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 56900 39400 5 8 1 1 90 0 1
-refdes=C?
+refdes=C14
 T 56300 39600 5 10 0 0 90 0 1
 symversion=0.1
 T 56900 40000 5 8 1 1 90 0 1
@@ -703,7 +703,7 @@ C 56600 39400 1 90 0 capacitor-1.sym
 T 55900 39600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 56300 39400 5 8 1 1 90 0 1
-refdes=C?
+refdes=C15
 T 55700 39600 5 10 0 0 90 0 1
 symversion=0.1
 T 56300 40000 5 8 1 1 90 0 1
@@ -729,7 +729,7 @@ device=terminal
 T 38610 39300 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 38750 5 10 1 1 0 6 1
-refdes=T?
+refdes=T7
 T 38900 38900 5 8 1 1 0 1 1
 value=GND
 }
@@ -743,7 +743,7 @@ device=terminal
 T 38610 42100 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 41550 5 10 1 1 0 6 1
-refdes=T?
+refdes=T8
 T 38900 41700 5 8 1 1 0 1 1
 value=3.3V
 }
@@ -767,7 +767,7 @@ device=terminal
 T 38610 41700 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 41150 5 10 1 1 0 6 1
-refdes=T?
+refdes=T9
 T 38900 41300 5 8 1 1 0 1 1
 value=SCLK
 }
@@ -778,7 +778,7 @@ device=terminal
 T 38610 41300 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 40750 5 10 1 1 0 6 1
-refdes=T?
+refdes=T10
 T 38900 40900 5 8 1 1 0 1 1
 value=MISO
 }
@@ -789,7 +789,7 @@ device=terminal
 T 38610 40900 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 40350 5 10 1 1 0 6 1
-refdes=T?
+refdes=T11
 T 38900 40500 5 8 1 1 0 1 1
 value=MOSI
 }
@@ -800,7 +800,7 @@ device=terminal
 T 38610 40500 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 39950 5 10 1 1 0 6 1
-refdes=T?
+refdes=T12
 T 38900 40100 5 8 1 1 0 1 1
 value=SS1
 }
@@ -811,7 +811,7 @@ device=terminal
 T 38610 40100 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 39550 5 10 1 1 0 6 1
-refdes=T?
+refdes=T13
 T 38900 39700 5 8 1 1 0 1 1
 value=SS2
 }
@@ -822,7 +822,7 @@ device=terminal
 T 38610 39700 5 10 0 0 0 0 1
 footprint=CONNECTOR 1 1
 T 38550 39150 5 10 1 1 0 6 1
-refdes=T?
+refdes=T14
 T 38900 39300 5 8 1 1 0 1 1
 value=SS3
 }
