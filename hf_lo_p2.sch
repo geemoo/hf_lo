@@ -500,7 +500,7 @@ device=SMA
 T 53900 43400 5 10 1 1 0 6 1
 refdes=J2
 T 53900 44000 5 10 0 0 0 6 1
-footprint=SMA-E
+footprint=SMA-RATH
 }
 C 41100 41600 1 0 0 resistor-1.sym
 {
