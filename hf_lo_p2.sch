@@ -9,17 +9,6 @@ device=AD9834
 T 40800 54100 5 10 0 0 0 0 1
 footprint=AD9834_TSSOP20
 }
-C 42200 52500 1 0 0 generic-supply-1.sym
-{
-T 42400 52750 5 10 0 1 0 3 1
-net=DVdd:1
-T 42600 53600 5 10 0 0 0 0 1
-footprint=none
-T 42600 53400 5 10 0 0 0 0 1
-device=PWR
-T 42400 52800 9 10 1 1 0 4 1
-netname=AVdd
-}
 C 43300 52500 1 0 0 generic-supply-1.sym
 {
 T 43500 52750 5 10 0 1 0 3 1
@@ -74,17 +63,6 @@ netname=pselect
 N 40800 50400 41000 50400 4
 N 39900 50400 39300 50400 4
 N 39300 50400 39300 50600 4
-C 39100 50600 1 0 0 generic-supply-1.sym
-{
-T 39300 50850 5 10 0 1 0 3 1
-net=DVdd:1
-T 39500 51700 5 10 0 0 0 0 1
-footprint=none
-T 39500 51500 5 10 0 0 0 0 1
-device=PWR
-T 39300 50900 9 8 1 1 0 4 1
-netname=AVdd
-}
 N 41200 48100 40000 48100 4
 {
 T 39900 48100 5 8 1 1 0 7 1
@@ -95,7 +73,6 @@ N 40000 47700 41200 47700 4
 T 39900 47700 5 8 1 1 0 7 1
 netname=mosi
 }
-C 43400 46300 1 0 0 gnd-1.sym
 N 43500 46600 43500 47000 4
 N 41000 51600 41000 52600 4
 N 41000 51600 41200 51600 4
@@ -114,7 +91,6 @@ value=0.1uF
 T 45000 49800 5 10 0 0 0 0 1
 footprint=0603
 }
-C 46000 49500 1 0 0 gnd-1.sym
 N 44600 50000 45000 50000 4
 N 45900 50000 46100 50000 4
 C 45000 50300 1 0 0 capacitor-1.sym
@@ -220,18 +196,6 @@ value=0.1uF
 T 38400 38000 5 10 0 0 0 0 1
 footprint=0603
 }
-C 38000 39100 1 0 0 generic-supply-1.sym
-{
-T 38200 39350 5 10 0 1 0 3 1
-net=DVdd:1
-T 38400 40200 5 10 0 0 0 0 1
-footprint=none
-T 38400 40000 5 10 0 0 0 0 1
-device=PWR
-T 38200 39400 9 10 1 1 0 4 1
-netname=AVdd
-}
-C 39600 37500 1 0 0 gnd-1.sym
 N 39700 38900 39700 39100 4
 N 39700 38000 39700 37800 4
 C 39900 38000 1 90 0 capacitor-1.sym
@@ -313,7 +277,7 @@ C 47500 43100 1 0 0 inductor-1.sym
 T 47700 43600 5 10 0 0 0 0 1
 device=INDUCTOR
 T 47400 43300 5 10 1 1 0 0 1
-refdes=L1
+refdes=L2
 T 47700 43800 5 10 0 0 0 0 1
 symversion=0.1
 T 48300 43300 5 10 1 1 0 0 1
@@ -329,7 +293,7 @@ C 49900 43100 1 0 0 inductor-1.sym
 T 50100 43600 5 10 0 0 0 0 1
 device=INDUCTOR
 T 49800 43300 5 10 1 1 0 0 1
-refdes=L2
+refdes=L3
 T 50100 43800 5 10 0 0 0 0 1
 symversion=0.1
 T 50700 43300 5 10 1 1 0 0 1
@@ -385,7 +349,7 @@ C 43000 43100 1 0 0 inductor-1.sym
 T 43200 43600 5 10 0 0 0 0 1
 device=INDUCTOR
 T 42900 43300 5 10 1 1 0 0 1
-refdes=L3
+refdes=L4
 T 43200 43800 5 10 0 0 0 0 1
 symversion=0.1
 T 43800 43300 5 10 1 1 0 0 1
@@ -484,7 +448,7 @@ C 45500 43100 1 0 0 inductor-1.sym
 T 45700 43600 5 10 0 0 0 0 1
 device=INDUCTOR
 T 45400 43300 5 10 1 1 0 0 1
-refdes=L4
+refdes=L5
 T 45700 43800 5 10 0 0 0 0 1
 symversion=0.1
 T 46300 43300 5 10 1 1 0 0 1
@@ -516,4 +480,40 @@ footprint=0603
 N 42000 41700 53500 41700 4
 N 41100 41700 40500 41700 4
 N 40500 41700 40500 41300 4
-C 40400 41000 1 0 0 gnd-1.sym
+C 38000 39100 1 0 0 generic-supply-1.sym
+{
+T 38200 39350 5 10 0 1 0 3 1
+net=DVdd:1
+T 38400 40200 5 10 0 0 0 0 1
+footprint=none
+T 38400 40000 5 10 0 0 0 0 1
+device=PWR
+T 38200 39400 9 10 1 1 0 4 1
+netname=DVdd
+}
+C 42200 52500 1 0 0 generic-supply-1.sym
+{
+T 42400 52750 5 10 0 1 0 3 1
+net=DVdd:1
+T 42600 53600 5 10 0 0 0 0 1
+footprint=none
+T 42600 53400 5 10 0 0 0 0 1
+device=PWR
+T 42400 52800 9 10 1 1 0 4 1
+netname=DVdd
+}
+C 39100 50600 1 0 0 generic-supply-1.sym
+{
+T 39300 50850 5 10 0 1 0 3 1
+net=DVdd:1
+T 39500 51700 5 10 0 0 0 0 1
+footprint=none
+T 39500 51500 5 10 0 0 0 0 1
+device=PWR
+T 39300 50900 9 10 1 1 0 4 1
+netname=DVdd
+}
+C 43400 46300 1 0 0 agnd.sym
+C 40400 41000 1 0 0 agnd.sym
+C 39600 37500 1 0 0 agnd.sym
+C 46000 49500 1 0 0 agnd.sym
