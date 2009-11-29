@@ -1,5 +1,5 @@
 # release: pcb 1.99y
-# date:    Sat Nov 28 18:47:31 2009
+# date:    Sat Nov 28 22:10:04 2009
 # user:    jean (Jean Richard,,,)
 # host:    builder,
 
@@ -8,7 +8,7 @@ FileVersion[20070407]
 
 PCB["" 600000 500000]
 
-Grid[100.000000 0 0 1]
+Grid[100.000000 0 0 0]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
@@ -1443,6 +1443,55 @@ Element["" "0603" "C22" "0.1uF" 228300 255800 -2200 11800 1 67 ""]
 	Pad[-492 2559 492 2559 2952 2000 3552 "2" "2" "square"]
 
 	)
+
+Element["" "0603" "C29" "0.1uF" 444300 219800 -4100 -8800 0 100 ""]
+(
+	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
+	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
+
+	)
+
+Element["" "0603" "D1" "unknown" 424200 219800 -2800 -9200 0 100 ""]
+(
+	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
+	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
+
+	)
+
+Element["" "0603" "D2" "unknown" 404200 219800 -3100 -9300 0 100 ""]
+(
+	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
+	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
+
+	)
+
+Element["" "0603" "R14" "270" 384100 219800 -3300 -9800 0 100 ""]
+(
+	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
+	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
+
+	)
+
+Element["" "0603" "R15" "270" 364000 219800 -3800 -9600 0 100 ""]
+(
+	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
+	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
+
+	)
+
+Element["" "0603" "R16" "270" 344000 219800 -3200 -9000 0 100 ""]
+(
+	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
+	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
+
+	)
+
+Element["" "0603" "D3" "unknown" 323900 219800 -3100 -9000 0 100 ""]
+(
+	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
+	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
+
+	)
 Rat[300441 454208 1 280441 454208 1  ""]
 Rat[280441 454208 1 260441 454208 1  ""]
 Rat[260441 454208 1 240441 454208 1  ""]
@@ -1489,6 +1538,7 @@ Rat[311959 396808 1 305441 339008 1  ""]
 Rat[305441 339008 1 255500 269200 1  ""]
 Rat[241900 269200 1 239060 213995 1  ""]
 Rat[239060 213995 1 309176 146117 2  ""]
+Rat[309176 146117 2 346559 219308 1  ""]
 Rat[352706 487892 1 327588 487892 1  ""]
 Rat[327588 487892 1 300773 390427 1  ""]
 Rat[352706 487892 1 556000 435700 2  ""]
@@ -1514,7 +1564,12 @@ Rat[160441 454208 1 140441 454208 1  ""]
 Rat[258789 393577 1 250700 277400 1  ""]
 Rat[253800 274300 1 242800 226396 1  ""]
 Rat[255500 274300 1 305441 268508 1  ""]
-Rat[242800 226396 1 309176 166117 2  ""]
+Rat[305441 268508 1 326459 219308 1  ""]
+Rat[326459 219308 1 309176 166117 2  ""]
+Rat[326459 219308 1 406759 219308 1  ""]
+Rat[406759 219308 1 426759 219308 1  ""]
+Rat[426759 219308 1 446859 219308 1  ""]
+Rat[361441 219308 1 278206 419293 1  ""]
 Rat[258789 406175 1 99295 439200 1  ""]
 Rat[299176 146117 2 290805 419293 1  ""]
 Rat[290805 419293 1 327000 435700 2  ""]
@@ -1532,8 +1587,13 @@ Rat[282917 274338 1 300773 409324 1  ""]
 Rat[300773 409324 1 348000 435700 2  ""]
 Rat[310559 339008 1 282917 279456 1  ""]
 Rat[310559 339008 1 275057 419293 1  ""]
+Rat[381541 219308 1 281356 419293 1  ""]
 Rat[345559 454208 1 246540 213995 1  ""]
 Rat[285559 454208 1 213240 226795 1  ""]
+Rat[441741 219308 1 300773 399876 1  ""]
+Rat[421641 219308 1 366559 219308 1  ""]
+Rat[401641 219308 1 386659 219308 1  ""]
+Rat[321341 219308 1 341441 219308 1  ""]
 Rat[249500 259000 1 255083 258985 1  ""]
 Rat[310559 328810 1 282917 258985 1  ""]
 Rat[365559 454208 1 305559 454208 1  ""]
@@ -1744,6 +1804,7 @@ NetList()
 		Connect("R5-2")
 		Connect("R6-2")
 		Connect("R7-1")
+		Connect("R16-2")
 		Connect("T8-1")
 		Connect("U1-5")
 		Connect("U3-4")
@@ -1792,6 +1853,10 @@ NetList()
 		Connect("C19-1")
 		Connect("C20-1")
 		Connect("C21-1")
+		Connect("C29-2")
+		Connect("D1-2")
+		Connect("D2-2")
+		Connect("D3-2")
 		Connect("J1-6")
 		Connect("L1-1")
 		Connect("T7-1")
@@ -1803,6 +1868,7 @@ NetList()
 	)
 	Net("led_oob" "(unknown)")
 	(
+		Connect("R15-1")
 		Connect("U3-12")
 	)
 	Net("mcu_clk" "(unknown)")
@@ -1860,6 +1926,7 @@ NetList()
 	)
 	Net("stable" "(unknown)")
 	(
+		Connect("R14-1")
 		Connect("U3-13")
 	)
 	Net("unnamed_net1" "(unknown)")
@@ -1874,65 +1941,101 @@ NetList()
 	)
 	Net("unnamed_net3" "(unknown)")
 	(
+		Connect("U3-8")
+	)
+	Net("unnamed_net4" "(unknown)")
+	(
+		Connect("U3-14")
+	)
+	Net("unnamed_net5" "(unknown)")
+	(
+		Connect("U3-19")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("U3-22")
+	)
+	Net("unnamed_net7" "(unknown)")
+	(
+		Connect("C29-1")
+		Connect("U3-20")
+	)
+	Net("unnamed_net8" "(unknown)")
+	(
 		Connect("U4-1")
 		Connect("U4-3")
 		Connect("X1-3")
 	)
-	Net("unnamed_net4" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
+	(
+		Connect("D1-1")
+		Connect("R15-2")
+	)
+	Net("unnamed_net10" "(unknown)")
+	(
+		Connect("D2-1")
+		Connect("R14-2")
+	)
+	Net("unnamed_net11" "(unknown)")
+	(
+		Connect("D3-1")
+		Connect("R16-1")
+	)
+	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("C17-1")
 		Connect("R8-1")
 		Connect("U5-1")
 	)
-	Net("unnamed_net5" "(unknown)")
+	Net("unnamed_net13" "(unknown)")
 	(
 		Connect("C16-1")
 		Connect("U5-2")
 	)
-	Net("unnamed_net6" "(unknown)")
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("C18-1")
 		Connect("U5-3")
 	)
-	Net("unnamed_net7" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("U5-17")
 	)
-	Net("unnamed_net8" "(unknown)")
+	Net("unnamed_net16" "(unknown)")
 	(
 		Connect("R9-2")
 		Connect("U5-20")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("C19-2")
 		Connect("C20-2")
 		Connect("U5-6")
 	)
-	Net("unnamed_net10" "(unknown)")
+	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("U5-16")
 	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("C25-2")
 		Connect("C28-2")
 		Connect("L2-2")
 		Connect("L3-1")
 	)
-	Net("unnamed_net12" "(unknown)")
+	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("L2-1")
 		Connect("L5-2")
 	)
-	Net("unnamed_net13" "(unknown)")
+	Net("unnamed_net21" "(unknown)")
 	(
 		Connect("C26-2")
 		Connect("J2-1")
 		Connect("L3-2")
 		Connect("R11-2")
 	)
-	Net("unnamed_net14" "(unknown)")
+	Net("unnamed_net22" "(unknown)")
 	(
 		Connect("C23-1")
 		Connect("C24-1")
@@ -1944,13 +2047,13 @@ NetList()
 		Connect("R11-1")
 		Connect("R13-2")
 	)
-	Net("unnamed_net15" "(unknown)")
+	Net("unnamed_net23" "(unknown)")
 	(
 		Connect("C23-2")
 		Connect("L4-1")
 		Connect("R12-2")
 	)
-	Net("unnamed_net16" "(unknown)")
+	Net("unnamed_net24" "(unknown)")
 	(
 		Connect("C24-2")
 		Connect("C27-2")
