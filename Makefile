@@ -32,7 +32,7 @@ attrib: $(PAGES)
 	gattrib $(PAGES)
 
 renum: $(PAGES)
-	refdes_renum --force $(PAGES)
+	refdes_renum $(PAGES)
 
 #update: $(PAGES)
 #	gschupdate $(PAGES)
