@@ -500,7 +500,7 @@ C 38300 46700 1 0 0 terminal-1.sym
 T 38610 47450 5 10 0 0 0 0 1
 device=terminal
 T 38610 47300 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 46750 5 10 1 1 0 6 1
 refdes=T1
 T 38900 46900 5 8 1 1 0 1 1
@@ -511,7 +511,7 @@ C 38300 46400 1 0 0 terminal-1.sym
 T 38610 47150 5 10 0 0 0 0 1
 device=terminal
 T 38610 47000 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 46450 5 10 1 1 0 6 1
 refdes=T2
 T 38900 46600 5 8 1 1 0 1 1
@@ -522,7 +522,7 @@ C 38300 46100 1 0 0 terminal-1.sym
 T 38610 46850 5 10 0 0 0 0 1
 device=terminal
 T 38610 46700 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 46150 5 10 1 1 0 6 1
 refdes=T3
 T 38900 46300 5 8 1 1 0 1 1
@@ -533,7 +533,7 @@ C 38300 45800 1 0 0 terminal-1.sym
 T 38610 46550 5 10 0 0 0 0 1
 device=terminal
 T 38610 46400 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 45850 5 10 1 1 0 6 1
 refdes=T4
 T 38900 46000 5 8 1 1 0 1 1
@@ -544,7 +544,7 @@ C 38300 45500 1 0 0 terminal-1.sym
 T 38610 46250 5 10 0 0 0 0 1
 device=terminal
 T 38610 46100 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 45550 5 10 1 1 0 6 1
 refdes=T5
 T 38900 45700 5 8 1 1 0 1 1
@@ -555,7 +555,7 @@ C 38300 45200 1 0 0 terminal-1.sym
 T 38610 45950 5 10 0 0 0 0 1
 device=terminal
 T 38610 45800 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 45250 5 10 1 1 0 6 1
 refdes=T6
 T 38900 45400 5 8 1 1 0 1 1
@@ -587,7 +587,7 @@ C 38300 44900 1 0 0 terminal-1.sym
 T 38610 45650 5 10 0 0 0 0 1
 device=terminal
 T 38610 45500 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 44950 5 10 1 1 0 6 1
 refdes=T7
 T 38900 45100 5 8 1 1 0 1 1
@@ -601,7 +601,7 @@ C 38300 41500 1 0 0 terminal-1.sym
 T 38610 42250 5 10 0 0 0 0 1
 device=terminal
 T 38610 42100 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 41550 5 10 1 1 0 6 1
 refdes=T8
 T 38900 41700 5 8 1 1 0 1 1
@@ -614,7 +614,7 @@ C 38300 41100 1 0 0 terminal-1.sym
 T 38610 41850 5 10 0 0 0 0 1
 device=terminal
 T 38610 41700 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 41150 5 10 1 1 0 6 1
 refdes=T9
 T 38900 41300 5 8 1 1 0 1 1
@@ -625,7 +625,7 @@ C 38300 40700 1 0 0 terminal-1.sym
 T 38610 41450 5 10 0 0 0 0 1
 device=terminal
 T 38610 41300 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 40750 5 10 1 1 0 6 1
 refdes=T10
 T 38900 40900 5 8 1 1 0 1 1
@@ -636,7 +636,7 @@ C 38300 40300 1 0 0 terminal-1.sym
 T 38610 41050 5 10 0 0 0 0 1
 device=terminal
 T 38610 40900 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 40350 5 10 1 1 0 6 1
 refdes=T11
 T 38900 40500 5 8 1 1 0 1 1
@@ -647,7 +647,7 @@ C 38300 39900 1 0 0 terminal-1.sym
 T 38610 40650 5 10 0 0 0 0 1
 device=terminal
 T 38610 40500 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 39950 5 10 1 1 0 6 1
 refdes=T12
 T 38900 40100 5 8 1 1 0 1 1
@@ -658,7 +658,7 @@ C 38300 39500 1 0 0 terminal-1.sym
 T 38610 40250 5 10 0 0 0 0 1
 device=terminal
 T 38610 40100 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 39550 5 10 1 1 0 6 1
 refdes=T13
 T 38900 39700 5 8 1 1 0 1 1
@@ -669,7 +669,7 @@ C 38300 39100 1 0 0 terminal-1.sym
 T 38610 39850 5 10 0 0 0 0 1
 device=terminal
 T 38610 39700 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 39150 5 10 1 1 0 6 1
 refdes=T14
 T 38900 39300 5 8 1 1 0 1 1
@@ -1035,7 +1035,7 @@ C 37400 52400 1 0 0 terminal-1.sym
 T 37710 53150 5 10 0 0 0 0 1
 device=terminal
 T 37710 53000 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 37650 52450 5 10 1 1 0 6 1
 refdes=T15
 T 38000 52600 5 8 1 1 0 1 1
@@ -1068,7 +1068,7 @@ C 38300 38700 1 0 0 terminal-1.sym
 T 38610 39450 5 10 0 0 0 0 1
 device=terminal
 T 38610 39300 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 38750 5 10 1 1 0 6 1
 refdes=T16
 T 38900 38900 5 8 1 1 0 1 1
@@ -1079,7 +1079,7 @@ C 38300 38300 1 0 0 terminal-1.sym
 T 38610 39050 5 10 0 0 0 0 1
 device=terminal
 T 38610 38900 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=TERMINAL1
 T 38550 38350 5 10 1 1 0 6 1
 refdes=T17
 T 38900 38500 5 8 1 1 0 1 1
