@@ -360,7 +360,7 @@ netname=led_oob
 N 49300 47800 49900 47800 4
 {
 T 49200 47800 5 8 1 1 0 7 1
-netname=stable
+netname=led_stable
 }
 N 43300 46800 39200 46800 4
 {
@@ -845,7 +845,7 @@ netname=led_oob
 N 55500 41500 56100 41500 4
 {
 T 55400 41500 5 8 1 1 0 7 1
-netname=stable
+netname=led_stable
 }
 C 57900 41000 1 270 0 led-2.sym
 {
@@ -1061,7 +1061,7 @@ netname=led_oob
 N 39800 38400 39200 38400 4
 {
 T 39900 38400 5 8 1 1 0 1 1
-netname=stable
+netname=led_stable
 }
 C 38300 38700 1 0 0 terminal-1.sym
 {
