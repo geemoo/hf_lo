@@ -69,7 +69,7 @@ printps: $(PAGES)
 	rm -f $(PROJNAME).ps
 	for S in $(PAGES); \
 	do \
-	gschem -q -o ONEPAGE.ps -s/usr/share/gEDA/scheme/print.scm $$S; \
+	gschem -q -o ONEPAGE.ps -s/home/jean/usr/share/gEDA/scheme/print.scm $$S; \
 	cat ONEPAGE.ps; done > $(PROJNAME).ps
 	rm -f ONEPAGE.ps
 

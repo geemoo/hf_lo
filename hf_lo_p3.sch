@@ -470,7 +470,7 @@ device=terminal
 T 52310 51900 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 51350 5 10 1 1 0 6 1
-refdes=T?
+refdes=T18
 T 52600 51500 5 8 1 1 0 1 1
 value=3.3V
 }
@@ -481,7 +481,7 @@ device=terminal
 T 52310 50300 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 49750 5 10 1 1 0 6 1
-refdes=T?
+refdes=T19
 T 52600 49900 5 8 1 1 0 1 1
 value=SCLK
 }
@@ -492,7 +492,7 @@ device=terminal
 T 52310 49900 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 49350 5 10 1 1 0 6 1
-refdes=T?
+refdes=T20
 T 52600 49500 5 8 1 1 0 1 1
 value=MISO
 }
@@ -503,7 +503,7 @@ device=terminal
 T 52310 49500 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 48950 5 10 1 1 0 6 1
-refdes=T?
+refdes=T21
 T 52600 49100 5 8 1 1 0 1 1
 value=MOSI
 }
@@ -514,7 +514,7 @@ device=terminal
 T 52310 51500 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 50950 5 10 1 1 0 6 1
-refdes=T?
+refdes=T22
 T 52600 51100 5 8 1 1 0 1 1
 value=SS1
 }
@@ -525,7 +525,7 @@ device=terminal
 T 52310 51100 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 50550 5 10 1 1 0 6 1
-refdes=T?
+refdes=T23
 T 52600 50700 5 8 1 1 0 1 1
 value=SS2
 }
@@ -536,7 +536,7 @@ device=terminal
 T 52310 50700 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 50150 5 10 1 1 0 6 1
-refdes=T?
+refdes=T24
 T 52600 50300 5 8 1 1 0 1 1
 value=SS3
 }
@@ -547,7 +547,7 @@ device=terminal
 T 52310 47500 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 46950 5 10 1 1 0 6 1
-refdes=T?
+refdes=T25
 T 52600 47100 5 8 1 1 0 1 1
 value=OOB
 }
@@ -558,7 +558,7 @@ device=terminal
 T 52310 47100 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 46550 5 10 1 1 0 6 1
-refdes=T?
+refdes=T26
 T 52600 46700 5 8 1 1 0 1 1
 value=LOCK
 }
@@ -614,7 +614,7 @@ device=terminal
 T 52310 46700 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 46150 5 10 1 1 0 6 1
-refdes=T?
+refdes=T27
 T 52600 46300 5 8 1 1 0 1 1
 value=GND
 }
@@ -648,7 +648,7 @@ device=terminal
 T 52310 49100 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 48550 5 10 1 1 0 6 1
-refdes=T?
+refdes=T28
 T 52600 48700 5 8 1 1 0 1 1
 value=Down
 }
@@ -659,7 +659,7 @@ device=terminal
 T 52310 48700 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 48150 5 10 1 1 0 6 1
-refdes=T?
+refdes=T29
 T 52600 48300 5 8 1 1 0 1 1
 value=Up
 }
@@ -670,7 +670,7 @@ device=terminal
 T 52310 48300 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 47750 5 10 1 1 0 6 1
-refdes=T?
+refdes=T30
 T 52600 47900 5 8 1 1 0 1 1
 value=Digit
 }
@@ -681,14 +681,14 @@ device=terminal
 T 52310 47900 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52250 47350 5 10 1 1 0 6 1
-refdes=T?
+refdes=T31
 T 52600 47500 5 8 1 1 0 1 1
 value=Lock
 }
 C 55000 46000 1 270 0 led-2.sym
 {
 T 55200 46000 5 10 1 1 270 0 1
-refdes=D?
+refdes=D4
 T 55600 45900 5 10 0 0 270 0 1
 device=LED
 T 55000 46000 5 10 0 0 0 0 1
@@ -697,7 +697,7 @@ footprint=0603
 C 54400 46000 1 270 0 led-2.sym
 {
 T 54600 46000 5 10 1 1 270 0 1
-refdes=D?
+refdes=D5
 T 55000 45900 5 10 0 0 270 0 1
 device=LED
 T 54400 46000 5 10 0 0 0 0 1
@@ -712,7 +712,7 @@ C 53200 46500 1 0 0 resistor-1.sym
 T 53500 46900 5 10 0 0 0 0 1
 device=RESISTOR
 T 53100 46700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R18
 T 54000 46700 5 10 1 1 0 0 1
 value=270
 T 53200 46500 5 10 0 0 270 0 1
@@ -723,7 +723,7 @@ C 53200 46900 1 0 0 resistor-1.sym
 T 53500 47300 5 10 0 0 0 0 1
 device=RESISTOR
 T 53100 47100 5 10 1 1 0 0 1
-refdes=R?
+refdes=R19
 T 54000 47100 5 10 1 1 0 0 1
 value=270
 T 53200 46900 5 10 0 0 270 0 1
@@ -733,127 +733,13 @@ N 54500 45100 54500 44700 4
 N 55100 45100 55100 44700 4
 C 54400 44400 1 0 0 gnd-1.sym
 C 55000 44400 1 0 0 gnd-1.sym
-C 54500 39900 1 0 0 74138.sym
-{
-T 55000 42900 5 10 1 1 0 6 1
-refdes=U?
-T 54800 43300 5 10 0 0 0 0 1
-device=74138
-T 54800 43700 5 10 0 0 0 0 1
-footprint=TSSOP16
-}
-N 54500 42500 54200 42500 4
-{
-T 54100 42500 5 8 1 1 0 7 1
-netname=disp_csmux0
-}
-N 54200 42200 54500 42200 4
-{
-T 54100 42200 5 8 1 1 0 7 1
-netname=disp_csmux1
-}
-N 54500 41900 54200 41900 4
-{
-T 54100 41900 5 8 1 1 0 7 1
-netname=disp_csmux2
-}
-N 56500 42500 56800 42500 4
-{
-T 56900 42500 5 8 1 1 0 1 1
-netname=latch1
-}
-N 56500 42200 56800 42200 4
-{
-T 56900 42200 5 8 1 1 0 1 1
-netname=latch2
-}
-N 56500 41900 56800 41900 4
-{
-T 56900 41900 5 8 1 1 0 1 1
-netname=latch3
-}
-N 56500 41600 56800 41600 4
-{
-T 56900 41600 5 8 1 1 0 1 1
-netname=latch4
-}
-N 56500 41300 56800 41300 4
-{
-T 56900 41300 5 8 1 1 0 1 1
-netname=latch5
-}
-N 56500 41000 56800 41000 4
-{
-T 56900 41000 5 8 1 1 0 1 1
-netname=latch6
-}
-N 56500 40700 56800 40700 4
-{
-T 56900 40700 5 8 1 1 0 1 1
-netname=latch7
-}
-N 56500 40400 56800 40400 4
-{
-T 56900 40400 5 8 1 1 0 1 1
-netname=latch8
-}
-C 55400 39200 1 0 0 gnd-1.sym
-N 55500 39900 55500 39500 4
-C 55300 43300 1 0 0 generic-supply-1.sym
-{
-T 55500 43550 5 10 0 1 0 3 1
-net=DispVcc:1
-T 55700 44400 5 10 0 0 0 0 1
-footprint=none
-T 55700 44200 5 10 0 0 0 0 1
-device=PWR
-T 55500 43600 9 10 1 1 0 4 1
-netname=DispVcc
-}
-N 55500 43100 55500 43300 4
-C 54100 41200 1 0 0 generic-supply-1.sym
-{
-T 54300 41450 5 10 0 1 0 3 1
-net=DispVcc:1
-T 54500 42300 5 10 0 0 0 0 1
-footprint=none
-T 54500 42100 5 10 0 0 0 0 1
-device=PWR
-T 54300 41500 9 10 1 1 0 4 1
-netname=DispVcc
-}
-N 54300 41200 54300 41000 4
-N 54300 41000 54500 41000 4
-N 54500 40700 54300 40700 4
-N 54300 39700 54300 40700 4
-N 54300 40400 54500 40400 4
-N 54300 39700 55500 39700 4
-C 38900 37400 1 0 0 gnd-1.sym
-N 39000 39000 39000 39400 4
-N 39000 38100 39000 37700 4
-C 39200 38100 1 90 0 capacitor-1.sym
-{
-T 38500 38300 5 10 0 0 90 0 1
-device=CAPACITOR
-T 38900 38100 5 8 1 1 90 0 1
-refdes=C?
-T 38300 38300 5 10 0 0 90 0 1
-symversion=0.1
-T 38900 38700 5 8 1 1 90 0 1
-value=0.1uF
-T 39200 38100 5 10 0 0 0 0 1
-footprint=0603
-}
-T 38700 39900 9 10 1 0 0 0 1
-74138
-C 38800 39400 1 0 0 generic-supply-1.sym
-{
-T 39000 39650 5 10 0 1 0 3 1
-net=DispVcc:1
-T 39200 40500 5 10 0 0 0 0 1
-footprint=none
-T 39200 40300 5 10 0 0 0 0 1
-device=PWR
-T 39000 39700 9 10 1 1 0 4 1
-netname=DispVcc
-}
+T 52000 37800 9 14 1 0 0 0 1
+Board Connectors
+T 52100 37100 9 14 1 0 0 0 1
+3
+T 55800 37100 9 10 1 0 0 0 1
+Jean Richard
+T 55800 37400 9 10 1 0 0 0 1
+v1.0
+T 53800 37100 9 14 1 0 0 0 1
+4
