@@ -1,4 +1,4 @@
-v 20091004 2
+v 20090328 2
 C 37100 36800 0 0 0 title-bordered-C.sym
 N 40000 49400 44100 49400 4
 {
@@ -734,28 +734,28 @@ C 54000 48800 1 0 0 switch-spst-1.sym
 T 54400 49500 5 10 0 0 0 0 1
 device=SPST
 T 53700 48900 5 10 1 1 0 0 1
-refdes=S?
+refdes=S1
 }
 C 54000 48400 1 0 0 switch-spst-1.sym
 {
 T 54400 49100 5 10 0 0 0 0 1
 device=SPST
 T 53700 48500 5 10 1 1 0 0 1
-refdes=S?
+refdes=S2
 }
 C 54000 48000 1 0 0 switch-spst-1.sym
 {
 T 54400 48700 5 10 0 0 0 0 1
 device=SPST
 T 53700 48100 5 10 1 1 0 0 1
-refdes=S?
+refdes=S3
 }
 C 54000 47600 1 0 0 switch-spst-1.sym
 {
 T 54400 48300 5 10 0 0 0 0 1
 device=SPST
 T 53700 47700 5 10 1 1 0 0 1
-refdes=S?
+refdes=S4
 }
 N 54800 48800 55200 48800 4
 N 55200 48400 54800 48400 4
