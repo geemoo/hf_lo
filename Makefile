@@ -4,6 +4,8 @@ PROJNAME := hf_lo
 # We pull in all schematic pages by default.. 
 PAGES := $(shell ls -1 *_p*.sch)
 
+# where to generated files go
+OBJDIR := .
 
 notarget:
 	@echo "Targets:"
