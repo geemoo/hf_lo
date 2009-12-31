@@ -204,7 +204,7 @@ device=terminal
 T 44690 44900 5 10 0 0 0 6 1
 footprint=TERMINAL1
 T 44750 44350 5 10 1 1 0 0 1
-refdes=T8
+refdes=T10
 T 44400 44500 5 8 1 1 0 7 1
 value=3.3V
 }
@@ -217,7 +217,7 @@ device=terminal
 T 44690 44500 5 10 0 0 0 6 1
 footprint=TERMINAL1
 T 44750 43950 5 10 1 1 0 0 1
-refdes=T9
+refdes=T11
 T 44400 44100 5 8 1 1 0 7 1
 value=SCLK
 }
@@ -228,7 +228,7 @@ device=terminal
 T 44690 44100 5 10 0 0 0 6 1
 footprint=TERMINAL1
 T 44750 43550 5 10 1 1 0 0 1
-refdes=T10
+refdes=T12
 T 44400 43700 5 8 1 1 0 7 1
 value=MISO
 }
@@ -239,7 +239,7 @@ device=terminal
 T 44690 43700 5 10 0 0 0 6 1
 footprint=TERMINAL1
 T 44750 43150 5 10 1 1 0 0 1
-refdes=T11
+refdes=T13
 T 44400 43300 5 8 1 1 0 7 1
 value=MOSI
 }
@@ -250,7 +250,7 @@ device=terminal
 T 44690 43300 5 10 0 0 0 6 1
 footprint=TERMINAL1
 T 44750 42750 5 10 1 1 0 0 1
-refdes=T12
+refdes=T14
 T 44400 42900 5 8 1 1 0 7 1
 value=SS1
 }
@@ -261,7 +261,7 @@ device=terminal
 T 44690 42900 5 10 0 0 0 6 1
 footprint=TERMINAL1
 T 44750 42350 5 10 1 1 0 0 1
-refdes=T13
+refdes=T15
 T 44400 42500 5 8 1 1 0 7 1
 value=SS2
 }
@@ -272,7 +272,7 @@ device=terminal
 T 44690 42500 5 10 0 0 0 6 1
 footprint=TERMINAL1
 T 44750 41950 5 10 1 1 0 0 1
-refdes=T14
+refdes=T16
 T 44400 42100 5 8 1 1 0 7 1
 value=SS3
 }
@@ -412,7 +412,7 @@ device=terminal
 T 44690 42100 5 10 0 0 0 6 1
 footprint=TERMINAL1
 T 44750 41550 5 10 1 1 0 0 1
-refdes=T16
+refdes=T17
 T 44400 41700 5 8 1 1 0 7 1
 value=OOB
 }
@@ -423,7 +423,7 @@ device=terminal
 T 44690 41700 5 10 0 0 0 6 1
 footprint=TERMINAL1
 T 44750 41150 5 10 1 1 0 0 1
-refdes=T17
+refdes=T18
 T 44400 41300 5 8 1 1 0 7 1
 value=LOCK
 }
@@ -445,7 +445,7 @@ device=terminal
 T 44690 41300 5 10 0 0 0 6 1
 footprint=TERMINAL1
 T 44750 40750 5 10 1 1 0 0 1
-refdes=T7
+refdes=T19
 T 44400 40900 5 8 1 1 0 7 1
 value=GND
 }
@@ -470,7 +470,7 @@ device=terminal
 T 52410 44900 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 44350 5 10 1 1 0 6 1
-refdes=T18
+refdes=T24
 T 52700 44500 5 8 1 1 0 1 1
 value=3.3V
 }
@@ -481,7 +481,7 @@ device=terminal
 T 52410 44500 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 43950 5 10 1 1 0 6 1
-refdes=T19
+refdes=T25
 T 52700 44100 5 8 1 1 0 1 1
 value=SCLK
 }
@@ -492,7 +492,7 @@ device=terminal
 T 52410 44100 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 43550 5 10 1 1 0 6 1
-refdes=T20
+refdes=T26
 T 52700 43700 5 8 1 1 0 1 1
 value=MISO
 }
@@ -503,7 +503,7 @@ device=terminal
 T 52410 43700 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 43150 5 10 1 1 0 6 1
-refdes=T21
+refdes=T27
 T 52700 43300 5 8 1 1 0 1 1
 value=MOSI
 }
@@ -514,7 +514,7 @@ device=terminal
 T 52410 43300 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 42750 5 10 1 1 0 6 1
-refdes=T22
+refdes=T28
 T 52700 42900 5 8 1 1 0 1 1
 value=SS1
 }
@@ -525,7 +525,7 @@ device=terminal
 T 52410 42900 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 42350 5 10 1 1 0 6 1
-refdes=T23
+refdes=T29
 T 52700 42500 5 8 1 1 0 1 1
 value=SS2
 }
@@ -536,7 +536,7 @@ device=terminal
 T 52410 42500 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 41950 5 10 1 1 0 6 1
-refdes=T24
+refdes=T30
 T 52700 42100 5 8 1 1 0 1 1
 value=SS3
 }
@@ -547,7 +547,7 @@ device=terminal
 T 52410 42100 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 41550 5 10 1 1 0 6 1
-refdes=T25
+refdes=T31
 T 52700 41700 5 8 1 1 0 1 1
 value=OOB
 }
@@ -558,7 +558,7 @@ device=terminal
 T 52410 41700 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 41150 5 10 1 1 0 6 1
-refdes=T26
+refdes=T32
 T 52700 41300 5 8 1 1 0 1 1
 value=LOCK
 }
@@ -614,7 +614,7 @@ device=terminal
 T 52410 41300 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 40750 5 10 1 1 0 6 1
-refdes=T27
+refdes=T33
 T 52700 40900 5 8 1 1 0 1 1
 value=GND
 }
@@ -632,7 +632,7 @@ device=terminal
 T 52410 49300 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 48750 5 10 1 1 0 6 1
-refdes=T28
+refdes=T20
 T 52700 48900 5 8 1 1 0 1 1
 value=Down
 }
@@ -643,7 +643,7 @@ device=terminal
 T 52410 48900 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 48350 5 10 1 1 0 6 1
-refdes=T29
+refdes=T21
 T 52700 48500 5 8 1 1 0 1 1
 value=Up
 }
@@ -654,7 +654,7 @@ device=terminal
 T 52410 48500 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 47950 5 10 1 1 0 6 1
-refdes=T30
+refdes=T22
 T 52700 48100 5 8 1 1 0 1 1
 value=Digit
 }
@@ -665,7 +665,7 @@ device=terminal
 T 52410 48100 5 10 0 0 0 0 1
 footprint=TERMINAL1
 T 52350 47550 5 10 1 1 0 6 1
-refdes=T31
+refdes=T23
 T 52700 47700 5 8 1 1 0 1 1
 value=Prog
 }
