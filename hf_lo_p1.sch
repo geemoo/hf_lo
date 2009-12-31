@@ -183,7 +183,7 @@ C 44300 50700 1 90 0 resistor-1.sym
 T 43900 51000 5 10 0 0 90 0 1
 device=RESISTOR
 T 44100 50600 5 10 1 1 90 0 1
-refdes=R16
+refdes=R1
 T 44100 51500 5 10 1 1 90 0 1
 value=270
 T 44300 50700 5 10 0 0 0 0 1
@@ -192,7 +192,7 @@ footprint=0603
 C 44000 50400 1 180 0 led-2.sym
 {
 T 43400 50500 5 10 1 1 180 0 1
-refdes=D3
+refdes=D1
 T 43900 49800 5 10 0 0 180 0 1
 device=LED
 T 44000 50400 5 10 0 0 0 0 1
@@ -215,7 +215,7 @@ value=5V
 C 39600 43200 1 0 0 zldo1117.sym
 {
 T 39895 44295 5 10 1 1 0 1 1
-refdes=U6
+refdes=U3
 T 39900 44500 5 10 0 0 0 0 1
 device=ZLDO1117
 T 39900 45100 5 10 0 0 0 0 1
@@ -226,7 +226,7 @@ N 40500 42300 40500 43200 4
 C 41900 42700 1 90 0 capacitor-1.sym
 {
 T 41600 42700 5 8 1 1 90 0 1
-refdes=C32
+refdes=C7
 T 41600 43300 5 8 1 1 90 0 1
 value=4.7uF
 T 41200 42900 5 10 0 0 90 0 1
@@ -239,7 +239,7 @@ footprint=0603
 C 39500 42700 1 90 0 capacitor-1.sym
 {
 T 39200 42700 5 8 1 1 90 0 1
-refdes=C33
+refdes=C8
 T 39200 43300 5 8 1 1 90 0 1
 value=4.7uF
 T 38800 42900 5 10 0 0 90 0 1
@@ -307,7 +307,7 @@ footprint=AVRISP_2x3
 C 50000 44900 1 0 0 atmega88.sym
 {
 T 50300 50900 5 10 1 1 0 0 1
-refdes=U3
+refdes=U4
 T 50200 52100 5 10 0 0 0 0 1
 device=ATMEGA88
 T 50200 52300 5 10 0 0 0 0 1
@@ -477,7 +477,7 @@ device=DRC_Directive
 C 52800 51100 1 0 0 capacitor-1.sym
 {
 T 52800 51400 5 8 1 1 0 0 1
-refdes=C29
+refdes=C9
 T 53400 51400 5 8 1 1 0 0 1
 value=0.1uF
 T 53000 51800 5 10 0 0 0 0 1
@@ -496,7 +496,7 @@ C 51800 44200 1 0 0 gnd-1.sym
 C 57100 45600 1 270 0 led-2.sym
 {
 T 57300 45600 5 10 1 1 270 0 1
-refdes=D1
+refdes=D2
 T 57700 45500 5 10 0 0 270 0 1
 device=LED
 T 57100 45600 5 10 0 0 0 0 1
@@ -505,7 +505,7 @@ footprint=0603
 C 56600 45600 1 270 0 led-2.sym
 {
 T 56800 45600 5 10 1 1 270 0 1
-refdes=D2
+refdes=D3
 T 57200 45500 5 10 0 0 270 0 1
 device=LED
 T 56600 45600 5 10 0 0 0 0 1
@@ -520,7 +520,7 @@ C 55000 45700 1 0 0 resistor-1.sym
 T 55300 46100 5 10 0 0 0 0 1
 device=RESISTOR
 T 54900 45900 5 10 1 1 0 0 1
-refdes=R14
+refdes=R2
 T 55800 45900 5 10 1 1 0 0 1
 value=270
 T 55000 45700 5 10 0 0 270 0 1
@@ -531,7 +531,7 @@ C 56000 46000 1 0 0 resistor-1.sym
 T 56300 46400 5 10 0 0 0 0 1
 device=RESISTOR
 T 55900 46200 5 10 1 1 0 0 1
-refdes=R15
+refdes=R3
 T 56800 46200 5 10 1 1 0 0 1
 value=270
 T 56000 46000 5 10 0 0 270 0 1
@@ -556,7 +556,7 @@ C 40200 37800 1 90 0 capacitor-1.sym
 T 39500 38000 5 10 0 0 90 0 1
 device=CAPACITOR
 T 39900 37800 5 8 1 1 90 0 1
-refdes=C7
+refdes=C10
 T 39300 38000 5 10 0 0 90 0 1
 symversion=0.1
 T 39900 38400 5 8 1 1 90 0 1
@@ -571,7 +571,7 @@ C 38600 37800 1 90 0 capacitor-1.sym
 T 37900 38000 5 10 0 0 90 0 1
 device=CAPACITOR
 T 38300 37800 5 8 1 1 90 0 1
-refdes=C15
+refdes=C11
 T 37700 38000 5 10 0 0 90 0 1
 symversion=0.1
 T 38300 38400 5 8 1 1 90 0 1
@@ -615,7 +615,7 @@ netname=DVdd
 C 38800 38700 1 270 0 capacitor-polarized.sym
 {
 T 38900 37800 5 8 1 1 90 1 1
-refdes=C14
+refdes=C12
 T 39600 38500 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 38900 38400 5 8 1 1 90 1 1
@@ -641,7 +641,7 @@ N 51600 40500 51600 40000 4
 C 53000 40400 1 0 0 742G07.sym
 {
 T 53300 41900 5 10 1 1 0 0 1
-refdes=U4
+refdes=U5
 T 53300 42300 5 10 0 0 0 0 1
 device=742G07
 T 53300 42900 5 10 0 0 0 0 1
