@@ -3,7 +3,7 @@ C 37100 36800 0 0 0 title-bordered-C.sym
 C 53700 42500 1 0 0 resistorpack8.sym
 {
 T 53900 45100 5 10 1 1 0 0 1
-refdes=R20
+refdes=R12
 T 53900 45500 5 10 0 0 0 0 1
 footprint=8x0602
 T 53900 45700 5 10 0 0 0 0 1
@@ -14,7 +14,7 @@ value=560
 C 53700 49000 1 0 0 resistorpack8.sym
 {
 T 53900 51600 5 10 1 1 0 0 1
-refdes=R21
+refdes=R13
 T 53900 52000 5 10 0 0 0 0 1
 footprint=8x0602
 T 53900 52200 5 10 0 0 0 0 1
@@ -25,7 +25,7 @@ value=560
 C 42700 49000 1 0 0 resistorpack8.sym
 {
 T 42900 51600 5 10 1 1 0 0 1
-refdes=R22
+refdes=R14
 T 42900 52000 5 10 0 0 0 0 1
 footprint=8x0602
 T 42900 52200 5 10 0 0 0 0 1
@@ -36,7 +36,7 @@ value=560
 C 42700 42500 1 0 0 resistorpack8.sym
 {
 T 42900 45100 5 10 1 1 0 0 1
-refdes=R23
+refdes=R15
 T 42900 45500 5 10 0 0 0 0 1
 footprint=8x0602
 T 42900 45700 5 10 0 0 0 0 1
@@ -45,57 +45,13 @@ T 43500 45100 5 10 1 1 0 0 1
 value=560
 }
 N 52700 51900 52700 52100 4
-C 52500 52100 1 0 0 generic-supply-1.sym
-{
-T 52700 52350 5 10 0 1 0 3 1
-net=DispVcc:1
-T 52900 53200 5 10 0 0 0 0 1
-footprint=none
-T 52900 53000 5 10 0 0 0 0 1
-device=PWR
-T 52700 52400 9 10 1 1 0 4 1
-netname=DispVcc
-}
 N 52700 45400 52700 45600 4
-C 52500 45600 1 0 0 generic-supply-1.sym
-{
-T 52700 45850 5 10 0 1 0 3 1
-net=DispVcc:1
-T 52900 46700 5 10 0 0 0 0 1
-footprint=none
-T 52900 46500 5 10 0 0 0 0 1
-device=PWR
-T 52700 45900 9 10 1 1 0 4 1
-netname=DispVcc
-}
 N 41700 51900 41700 52100 4
-C 41500 52100 1 0 0 generic-supply-1.sym
-{
-T 41700 52350 5 10 0 1 0 3 1
-net=DispVcc:1
-T 41900 53200 5 10 0 0 0 0 1
-footprint=none
-T 41900 53000 5 10 0 0 0 0 1
-device=PWR
-T 41700 52400 9 10 1 1 0 4 1
-netname=DispVcc
-}
 N 41700 45400 41700 45600 4
-C 41500 45600 1 0 0 generic-supply-1.sym
-{
-T 41700 45850 5 10 0 1 0 3 1
-net=DispVcc:1
-T 41900 46700 5 10 0 0 0 0 1
-footprint=none
-T 41900 46500 5 10 0 0 0 0 1
-device=PWR
-T 41700 45900 9 10 1 1 0 4 1
-netname=DispVcc
-}
 C 51700 48300 1 0 0 74595.sym
 {
 T 52200 51700 5 10 1 1 0 6 1
-refdes=U7
+refdes=U5
 T 52000 52000 5 10 0 0 0 0 1
 device=74595
 T 52000 52200 5 10 0 0 0 0 1
@@ -104,7 +60,7 @@ footprint=TSSOP16
 C 51700 41800 1 0 0 74595.sym
 {
 T 52200 45200 5 10 1 1 0 6 1
-refdes=U8
+refdes=U6
 T 52000 45500 5 10 0 0 0 0 1
 device=74595
 T 52000 45700 5 10 0 0 0 0 1
@@ -113,7 +69,7 @@ footprint=TSSOP16
 C 40700 48300 1 0 0 74595.sym
 {
 T 41200 51700 5 10 1 1 0 6 1
-refdes=U9
+refdes=U7
 T 41000 52000 5 10 0 0 0 0 1
 device=74595
 T 41000 52200 5 10 0 0 0 0 1
@@ -122,7 +78,7 @@ footprint=TSSOP16
 C 40700 41800 1 0 0 74595.sym
 {
 T 41200 45200 5 10 1 1 0 6 1
-refdes=U10
+refdes=U8
 T 41000 45500 5 10 0 0 0 0 1
 device=74595
 T 41000 45700 5 10 0 0 0 0 1
@@ -156,42 +112,42 @@ N 51700 51300 51500 51300 4
 N 39800 49800 40700 49800 4
 {
 T 39700 49800 5 8 1 1 0 7 1
-netname=disp_sclk
+netname=sclk
 }
 N 40700 49500 39800 49500 4
 {
 T 39700 49500 5 8 1 1 0 7 1
-netname=disp_mosi
+netname=mosi
 }
 N 39800 43300 40700 43300 4
 {
 T 39700 43300 5 8 1 1 0 7 1
-netname=disp_sclk
+netname=sclk
 }
 N 40700 43000 39800 43000 4
 {
 T 39700 43000 5 8 1 1 0 7 1
-netname=disp_mosi
+netname=mosi
 }
 N 50800 43300 51700 43300 4
 {
 T 50700 43300 5 8 1 1 0 7 1
-netname=disp_sclk
+netname=sclk
 }
 N 51700 43000 50800 43000 4
 {
 T 50700 43000 5 8 1 1 0 7 1
-netname=disp_mosi
+netname=mosi
 }
 N 50800 49800 51700 49800 4
 {
 T 50700 49800 5 8 1 1 0 7 1
-netname=disp_sclk
+netname=sclk
 }
 N 51700 49500 50800 49500 4
 {
 T 50700 49500 5 8 1 1 0 7 1
-netname=disp_mosi
+netname=mosi
 }
 N 40700 42700 39800 42700 4
 {
@@ -208,24 +164,13 @@ N 51700 42700 50800 42700 4
 T 50700 42700 5 8 1 1 0 7 1
 netname=latch3
 }
-C 38800 38500 1 0 0 generic-supply-1.sym
-{
-T 39000 38750 5 10 0 1 0 3 1
-net=DispVcc:1
-T 39200 39600 5 10 0 0 0 0 1
-footprint=none
-T 39200 39400 5 10 0 0 0 0 1
-device=PWR
-T 39000 38800 9 10 1 1 0 4 1
-netname=DispVcc
-}
 C 38900 37100 1 0 0 gnd-1.sym
 C 39200 37500 1 90 0 capacitor-1.sym
 {
 T 38500 37700 5 10 0 0 90 0 1
 device=CAPACITOR
 T 38900 37500 5 8 1 1 90 0 1
-refdes=C40
+refdes=C30
 T 38300 37700 5 10 0 0 90 0 1
 symversion=0.1
 T 38900 38100 5 8 1 1 90 0 1
@@ -233,24 +178,13 @@ value=0.1uF
 T 39200 37500 5 10 0 0 0 0 1
 footprint=0603
 }
-C 39600 38500 1 0 0 generic-supply-1.sym
-{
-T 39800 38750 5 10 0 1 0 3 1
-net=DispVcc:1
-T 40000 39600 5 10 0 0 0 0 1
-footprint=none
-T 40000 39400 5 10 0 0 0 0 1
-device=PWR
-T 39800 38800 9 10 1 1 0 4 1
-netname=DispVcc
-}
 C 39700 37100 1 0 0 gnd-1.sym
 C 40000 37500 1 90 0 capacitor-1.sym
 {
 T 39300 37700 5 10 0 0 90 0 1
 device=CAPACITOR
 T 39700 37500 5 8 1 1 90 0 1
-refdes=C41
+refdes=C31
 T 39100 37700 5 10 0 0 90 0 1
 symversion=0.1
 T 39700 38100 5 8 1 1 90 0 1
@@ -258,24 +192,13 @@ value=0.1uF
 T 40000 37500 5 10 0 0 0 0 1
 footprint=0603
 }
-C 40400 38500 1 0 0 generic-supply-1.sym
-{
-T 40600 38750 5 10 0 1 0 3 1
-net=DispVcc:1
-T 40800 39600 5 10 0 0 0 0 1
-footprint=none
-T 40800 39400 5 10 0 0 0 0 1
-device=PWR
-T 40600 38800 9 10 1 1 0 4 1
-netname=DispVcc
-}
 C 40500 37100 1 0 0 gnd-1.sym
 C 40800 37500 1 90 0 capacitor-1.sym
 {
 T 40100 37700 5 10 0 0 90 0 1
 device=CAPACITOR
 T 40500 37500 5 8 1 1 90 0 1
-refdes=C42
+refdes=C32
 T 39900 37700 5 10 0 0 90 0 1
 symversion=0.1
 T 40500 38100 5 8 1 1 90 0 1
@@ -283,24 +206,13 @@ value=0.1uF
 T 40800 37500 5 10 0 0 0 0 1
 footprint=0603
 }
-C 41200 38500 1 0 0 generic-supply-1.sym
-{
-T 41400 38750 5 10 0 1 0 3 1
-net=DispVcc:1
-T 41600 39600 5 10 0 0 0 0 1
-footprint=none
-T 41600 39400 5 10 0 0 0 0 1
-device=PWR
-T 41400 38800 9 10 1 1 0 4 1
-netname=DispVcc
-}
 C 41300 37100 1 0 0 gnd-1.sym
 C 41600 37500 1 90 0 capacitor-1.sym
 {
 T 40900 37700 5 10 0 0 90 0 1
 device=CAPACITOR
 T 41300 37500 5 8 1 1 90 0 1
-refdes=C43
+refdes=C33
 T 40700 37700 5 10 0 0 90 0 1
 symversion=0.1
 T 41300 38100 5 8 1 1 90 0 1
@@ -313,7 +225,7 @@ C 51200 44400 1 90 0 resistor-1.sym
 T 50800 44700 5 10 0 0 90 0 1
 device=RESISTOR
 T 51000 44200 5 10 1 1 90 0 1
-refdes=R32
+refdes=R16
 T 51000 45200 5 10 1 1 90 0 1
 value=10k
 T 51200 44400 5 10 0 0 0 0 1
@@ -324,7 +236,7 @@ C 40200 50900 1 90 0 resistor-1.sym
 T 39800 51200 5 10 0 0 90 0 1
 device=RESISTOR
 T 40000 50700 5 10 1 1 90 0 1
-refdes=R34
+refdes=R17
 T 40000 51700 5 10 1 1 90 0 1
 value=10k
 T 40200 50900 5 10 0 0 0 0 1
@@ -335,7 +247,7 @@ C 40300 44400 1 90 0 resistor-1.sym
 T 39900 44700 5 10 0 0 90 0 1
 device=RESISTOR
 T 40100 44200 5 10 1 1 90 0 1
-refdes=R35
+refdes=R18
 T 40100 45200 5 10 1 1 90 0 1
 value=10k
 T 40300 44400 5 10 0 0 0 0 1
@@ -400,7 +312,7 @@ N 44700 49200 43900 49200 4
 C 44100 51200 1 0 0 led-2.sym
 {
 T 44200 51400 5 10 1 1 0 0 1
-refdes=D?
+refdes=D4
 T 44200 51800 5 10 0 0 0 0 1
 device=LED
 T 44100 51200 5 10 0 0 90 0 1
@@ -409,7 +321,7 @@ footprint=0603
 C 44700 50900 1 0 0 led-2.sym
 {
 T 44800 51100 5 10 1 1 0 0 1
-refdes=D?
+refdes=D5
 T 44800 51500 5 10 0 0 0 0 1
 device=LED
 T 44700 50900 5 10 0 0 90 0 1
@@ -418,7 +330,7 @@ footprint=0603
 C 44100 50600 1 0 0 led-2.sym
 {
 T 44200 50800 5 10 1 1 0 0 1
-refdes=D?
+refdes=D6
 T 44200 51200 5 10 0 0 0 0 1
 device=LED
 T 44100 50600 5 10 0 0 90 0 1
@@ -427,7 +339,7 @@ footprint=0603
 C 44700 50300 1 0 0 led-2.sym
 {
 T 44800 50500 5 10 1 1 0 0 1
-refdes=D?
+refdes=D7
 T 44800 50900 5 10 0 0 0 0 1
 device=LED
 T 44700 50300 5 10 0 0 90 0 1
@@ -436,7 +348,7 @@ footprint=0603
 C 44100 50000 1 0 0 led-2.sym
 {
 T 44200 50200 5 10 1 1 0 0 1
-refdes=D?
+refdes=D8
 T 44200 50600 5 10 0 0 0 0 1
 device=LED
 T 44100 50000 5 10 0 0 90 0 1
@@ -445,7 +357,7 @@ footprint=0603
 C 44700 49700 1 0 0 led-2.sym
 {
 T 44800 49900 5 10 1 1 0 0 1
-refdes=D?
+refdes=D9
 T 44800 50300 5 10 0 0 0 0 1
 device=LED
 T 44700 49700 5 10 0 0 90 0 1
@@ -454,7 +366,7 @@ footprint=0603
 C 44100 49400 1 0 0 led-2.sym
 {
 T 44200 49600 5 10 1 1 0 0 1
-refdes=D?
+refdes=D10
 T 44200 50000 5 10 0 0 0 0 1
 device=LED
 T 44100 49400 5 10 0 0 90 0 1
@@ -463,7 +375,7 @@ footprint=0603
 C 44700 49100 1 0 0 led-2.sym
 {
 T 44800 49300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D11
 T 44800 49700 5 10 0 0 0 0 1
 device=LED
 T 44700 49100 5 10 0 0 90 0 1
@@ -490,7 +402,7 @@ N 44700 42700 43900 42700 4
 C 44100 44700 1 0 0 led-2.sym
 {
 T 44200 44900 5 10 1 1 0 0 1
-refdes=D?
+refdes=D12
 T 44200 45300 5 10 0 0 0 0 1
 device=LED
 T 44100 44700 5 10 0 0 90 0 1
@@ -499,7 +411,7 @@ footprint=0603
 C 44700 44400 1 0 0 led-2.sym
 {
 T 44800 44600 5 10 1 1 0 0 1
-refdes=D?
+refdes=D13
 T 44800 45000 5 10 0 0 0 0 1
 device=LED
 T 44700 44400 5 10 0 0 90 0 1
@@ -508,7 +420,7 @@ footprint=0603
 C 44100 44100 1 0 0 led-2.sym
 {
 T 44200 44300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D14
 T 44200 44700 5 10 0 0 0 0 1
 device=LED
 T 44100 44100 5 10 0 0 90 0 1
@@ -517,7 +429,7 @@ footprint=0603
 C 44700 43800 1 0 0 led-2.sym
 {
 T 44800 44000 5 10 1 1 0 0 1
-refdes=D?
+refdes=D15
 T 44800 44400 5 10 0 0 0 0 1
 device=LED
 T 44700 43800 5 10 0 0 90 0 1
@@ -526,7 +438,7 @@ footprint=0603
 C 44100 43500 1 0 0 led-2.sym
 {
 T 44200 43700 5 10 1 1 0 0 1
-refdes=D?
+refdes=D16
 T 44200 44100 5 10 0 0 0 0 1
 device=LED
 T 44100 43500 5 10 0 0 90 0 1
@@ -535,7 +447,7 @@ footprint=0603
 C 44700 43200 1 0 0 led-2.sym
 {
 T 44800 43400 5 10 1 1 0 0 1
-refdes=D?
+refdes=D17
 T 44800 43800 5 10 0 0 0 0 1
 device=LED
 T 44700 43200 5 10 0 0 90 0 1
@@ -544,7 +456,7 @@ footprint=0603
 C 44100 42900 1 0 0 led-2.sym
 {
 T 44200 43100 5 10 1 1 0 0 1
-refdes=D?
+refdes=D18
 T 44200 43500 5 10 0 0 0 0 1
 device=LED
 T 44100 42900 5 10 0 0 90 0 1
@@ -553,7 +465,7 @@ footprint=0603
 C 44700 42600 1 0 0 led-2.sym
 {
 T 44800 42800 5 10 1 1 0 0 1
-refdes=D?
+refdes=D19
 T 44800 43200 5 10 0 0 0 0 1
 device=LED
 T 44700 42600 5 10 0 0 90 0 1
@@ -580,7 +492,7 @@ N 55700 49200 54900 49200 4
 C 55100 51200 1 0 0 led-2.sym
 {
 T 55200 51400 5 10 1 1 0 0 1
-refdes=D?
+refdes=D20
 T 55200 51800 5 10 0 0 0 0 1
 device=LED
 T 55100 51200 5 10 0 0 90 0 1
@@ -589,7 +501,7 @@ footprint=0603
 C 55700 50900 1 0 0 led-2.sym
 {
 T 55800 51100 5 10 1 1 0 0 1
-refdes=D?
+refdes=D21
 T 55800 51500 5 10 0 0 0 0 1
 device=LED
 T 55700 50900 5 10 0 0 90 0 1
@@ -598,7 +510,7 @@ footprint=0603
 C 55100 50600 1 0 0 led-2.sym
 {
 T 55200 50800 5 10 1 1 0 0 1
-refdes=D?
+refdes=D22
 T 55200 51200 5 10 0 0 0 0 1
 device=LED
 T 55100 50600 5 10 0 0 90 0 1
@@ -607,7 +519,7 @@ footprint=0603
 C 55700 50300 1 0 0 led-2.sym
 {
 T 55800 50500 5 10 1 1 0 0 1
-refdes=D?
+refdes=D23
 T 55800 50900 5 10 0 0 0 0 1
 device=LED
 T 55700 50300 5 10 0 0 90 0 1
@@ -616,7 +528,7 @@ footprint=0603
 C 55100 50000 1 0 0 led-2.sym
 {
 T 55200 50200 5 10 1 1 0 0 1
-refdes=D?
+refdes=D24
 T 55200 50600 5 10 0 0 0 0 1
 device=LED
 T 55100 50000 5 10 0 0 90 0 1
@@ -625,7 +537,7 @@ footprint=0603
 C 55700 49700 1 0 0 led-2.sym
 {
 T 55800 49900 5 10 1 1 0 0 1
-refdes=D?
+refdes=D25
 T 55800 50300 5 10 0 0 0 0 1
 device=LED
 T 55700 49700 5 10 0 0 90 0 1
@@ -634,7 +546,7 @@ footprint=0603
 C 55100 49400 1 0 0 led-2.sym
 {
 T 55200 49600 5 10 1 1 0 0 1
-refdes=D?
+refdes=D26
 T 55200 50000 5 10 0 0 0 0 1
 device=LED
 T 55100 49400 5 10 0 0 90 0 1
@@ -643,7 +555,7 @@ footprint=0603
 C 55700 49100 1 0 0 led-2.sym
 {
 T 55800 49300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D27
 T 55800 49700 5 10 0 0 0 0 1
 device=LED
 T 55700 49100 5 10 0 0 90 0 1
@@ -670,7 +582,7 @@ N 55700 42700 54900 42700 4
 C 55100 44700 1 0 0 led-2.sym
 {
 T 55200 44900 5 10 1 1 0 0 1
-refdes=D?
+refdes=D28
 T 55200 45300 5 10 0 0 0 0 1
 device=LED
 T 55100 44700 5 10 0 0 90 0 1
@@ -679,7 +591,7 @@ footprint=0603
 C 55700 44400 1 0 0 led-2.sym
 {
 T 55800 44600 5 10 1 1 0 0 1
-refdes=D?
+refdes=D29
 T 55800 45000 5 10 0 0 0 0 1
 device=LED
 T 55700 44400 5 10 0 0 90 0 1
@@ -688,7 +600,7 @@ footprint=0603
 C 55100 44100 1 0 0 led-2.sym
 {
 T 55200 44300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D30
 T 55200 44700 5 10 0 0 0 0 1
 device=LED
 T 55100 44100 5 10 0 0 90 0 1
@@ -697,7 +609,7 @@ footprint=0603
 C 55700 43800 1 0 0 led-2.sym
 {
 T 55800 44000 5 10 1 1 0 0 1
-refdes=D?
+refdes=D31
 T 55800 44400 5 10 0 0 0 0 1
 device=LED
 T 55700 43800 5 10 0 0 90 0 1
@@ -706,7 +618,7 @@ footprint=0603
 C 55100 43500 1 0 0 led-2.sym
 {
 T 55200 43700 5 10 1 1 0 0 1
-refdes=D?
+refdes=D32
 T 55200 44100 5 10 0 0 0 0 1
 device=LED
 T 55100 43500 5 10 0 0 90 0 1
@@ -715,7 +627,7 @@ footprint=0603
 C 55700 43200 1 0 0 led-2.sym
 {
 T 55800 43400 5 10 1 1 0 0 1
-refdes=D?
+refdes=D33
 T 55800 43800 5 10 0 0 0 0 1
 device=LED
 T 55700 43200 5 10 0 0 90 0 1
@@ -724,7 +636,7 @@ footprint=0603
 C 55100 42900 1 0 0 led-2.sym
 {
 T 55200 43100 5 10 1 1 0 0 1
-refdes=D?
+refdes=D34
 T 55200 43500 5 10 0 0 0 0 1
 device=LED
 T 55100 42900 5 10 0 0 90 0 1
@@ -733,7 +645,7 @@ footprint=0603
 C 55700 42600 1 0 0 led-2.sym
 {
 T 55800 42800 5 10 1 1 0 0 1
-refdes=D?
+refdes=D35
 T 55800 43200 5 10 0 0 0 0 1
 device=LED
 T 55700 42600 5 10 0 0 90 0 1
@@ -763,7 +675,7 @@ C 51200 50900 1 90 0 resistor-1.sym
 T 50800 51200 5 10 0 0 90 0 1
 device=RESISTOR
 T 51000 50700 5 10 1 1 90 0 1
-refdes=R33
+refdes=R19
 T 51000 51700 5 10 1 1 90 0 1
 value=10k
 T 51200 50900 5 10 0 0 0 0 1
@@ -787,4 +699,92 @@ N 40700 50500 39800 50500 4
 {
 T 39700 50500 5 8 1 1 0 7 1
 netname=\_oe0\_
+}
+C 41500 52100 1 0 0 generic-supply-1.sym
+{
+T 41700 52350 5 10 0 1 0 3 1
+net=DVdd:1
+T 41900 53200 5 10 0 0 0 0 1
+footprint=none
+T 41900 53000 5 10 0 0 0 0 1
+device=PWR
+T 41700 52400 9 10 1 1 0 4 1
+netname=DVdd
+}
+C 41500 45600 1 0 0 generic-supply-1.sym
+{
+T 41700 45850 5 10 0 1 0 3 1
+net=DVdd:1
+T 41900 46700 5 10 0 0 0 0 1
+footprint=none
+T 41900 46500 5 10 0 0 0 0 1
+device=PWR
+T 41700 45900 9 10 1 1 0 4 1
+netname=DVdd
+}
+C 52500 52100 1 0 0 generic-supply-1.sym
+{
+T 52700 52350 5 10 0 1 0 3 1
+net=DVdd:1
+T 52900 53200 5 10 0 0 0 0 1
+footprint=none
+T 52900 53000 5 10 0 0 0 0 1
+device=PWR
+T 52700 52400 9 10 1 1 0 4 1
+netname=DVdd
+}
+C 52500 45600 1 0 0 generic-supply-1.sym
+{
+T 52700 45850 5 10 0 1 0 3 1
+net=DVdd:1
+T 52900 46700 5 10 0 0 0 0 1
+footprint=none
+T 52900 46500 5 10 0 0 0 0 1
+device=PWR
+T 52700 45900 9 10 1 1 0 4 1
+netname=DVdd
+}
+C 38800 38500 1 0 0 generic-supply-1.sym
+{
+T 39000 38750 5 10 0 1 0 3 1
+net=DVdd:1
+T 39200 39600 5 10 0 0 0 0 1
+footprint=none
+T 39200 39400 5 10 0 0 0 0 1
+device=PWR
+T 39000 38800 9 10 1 1 0 4 1
+netname=DVdd
+}
+C 39600 38500 1 0 0 generic-supply-1.sym
+{
+T 39800 38750 5 10 0 1 0 3 1
+net=DVdd:1
+T 40000 39600 5 10 0 0 0 0 1
+footprint=none
+T 40000 39400 5 10 0 0 0 0 1
+device=PWR
+T 39800 38800 9 10 1 1 0 4 1
+netname=DVdd
+}
+C 40400 38500 1 0 0 generic-supply-1.sym
+{
+T 40600 38750 5 10 0 1 0 3 1
+net=DVdd:1
+T 40800 39600 5 10 0 0 0 0 1
+footprint=none
+T 40800 39400 5 10 0 0 0 0 1
+device=PWR
+T 40600 38800 9 10 1 1 0 4 1
+netname=DVdd
+}
+C 41200 38500 1 0 0 generic-supply-1.sym
+{
+T 41400 38750 5 10 0 1 0 3 1
+net=DVdd:1
+T 41600 39600 5 10 0 0 0 0 1
+footprint=none
+T 41600 39400 5 10 0 0 0 0 1
+device=PWR
+T 41400 38800 9 10 1 1 0 4 1
+netname=DVdd
 }
