@@ -112,42 +112,42 @@ N 51700 51300 51500 51300 4
 N 39800 49800 40700 49800 4
 {
 T 39700 49800 5 8 1 1 0 7 1
-netname=sclk
+netname=dds_sclk
 }
 N 40700 49500 39800 49500 4
 {
 T 39700 49500 5 8 1 1 0 7 1
-netname=mosi
+netname=dds_sdata
 }
 N 39800 43300 40700 43300 4
 {
 T 39700 43300 5 8 1 1 0 7 1
-netname=sclk
+netname=dds_sclk
 }
 N 40700 43000 39800 43000 4
 {
 T 39700 43000 5 8 1 1 0 7 1
-netname=mosi
+netname=dds_sdata
 }
 N 50800 43300 51700 43300 4
 {
 T 50700 43300 5 8 1 1 0 7 1
-netname=sclk
+netname=dds_sclk
 }
 N 51700 43000 50800 43000 4
 {
 T 50700 43000 5 8 1 1 0 7 1
-netname=mosi
+netname=dds_sdata
 }
 N 50800 49800 51700 49800 4
 {
 T 50700 49800 5 8 1 1 0 7 1
-netname=sclk
+netname=dds_sclk
 }
 N 51700 49500 50800 49500 4
 {
 T 50700 49500 5 8 1 1 0 7 1
-netname=mosi
+netname=dds_sdata
 }
 N 40700 42700 39800 42700 4
 {
